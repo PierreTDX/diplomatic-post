@@ -1,0 +1,232 @@
+:root {
+  --background: #FEF5F5;
+  --title: #1B0505;
+  --p: #1B0505;
+  --author: #3F3F43;
+  --tagTous: #3F2525;
+  --tagCulture: #153A03;
+  --tagSociete: #5E4007;
+  --tagPolitique: #071652;
+  --tagInternational: #7C2908;
+  --tagTousHover: #F3DEDE;
+  --tagCultureHover: #C5FFA9;
+  --tagSocieteHover: #FFE1AA;
+  --tagPolitiqueHover: #C8D3FF;
+  --tagInternationalHover: #FFDFD2;
+  --buttonFooterMenu: #F3DEDE;
+  --footerLink: #DE595C;
+  --pInfo: #3F3F43;
+
+}
+
+
+body {
+  height: 100%;
+  color: var(--p);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+main {
+  width: min(100%, 1000px);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title);
+  font-family: var(--font-mona), sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.buttonMenu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  height: 32px;
+  padding: 0 16px 0 16px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonMenu:hover {
+  background-color: #F3DEDE;
+}
+
+/* Tags génériques */
+.tag {
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: currentColor;
+  margin-left: -10px;
+}
+
+/* Couleurs spécifiques */
+.tagTous {
+  color: var(--tagTous);
+  border-color: var(--tagTous);
+}
+
+.tagCulture {
+  color: var(--tagCulture);
+  border-color: var(--tagCulture);
+}
+
+.tagSociete {
+  color: var(--tagSociete);
+  border-color: var(--tagSociete);
+}
+
+.tagPolitique {
+  color: var(--tagPolitique);
+  border-color: var(--tagPolitique);
+}
+
+.tagInternational {
+  color: var(--tagInternational);
+  border-color: var(--tagInternational);
+}
+
+/* Hover : border transparente + fond spécifique */
+.tag:hover {
+  border-color: transparent;
+}
+
+.tagTous:hover {
+  background-color: var(--tagTousHover);
+}
+
+.tagCulture:hover {
+  background-color: var(--tagCultureHover);
+}
+
+.tagSociete:hover {
+  background-color: var(--tagSocieteHover);
+}
+
+.tagPolitique:hover {
+  background-color: var(--tagPolitiqueHover);
+}
+
+.tagInternational:hover {
+  background-color: var(--tagInternationalHover);
+}
+
+/* liste des Tags génériques */
+.tagList .tag {
+  border-color: transparent;
+}
+
+.tagList .tagTous {
+  background-color: var(--tagTousHover);
+}
+
+.tagList .tagCulture {
+  background-color: var(--tagCultureHover);
+}
+
+.tagList .tagSociete {
+  background-color: var(--tagSocieteHover);
+}
+
+.tagList .tagPolitique {
+  background-color: var(--tagPolitiqueHover);
+}
+
+.tagList .tagInternational {
+  background-color: var(--tagInternationalHover);
+}
+
+
+.buttonFooterMenu {
+  background: var(--buttonFooterMenu);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  height: 48px;
+  padding: 0 16px 0 16px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.buttonFooterMenu::before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('/images/theme/military_tech.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+
+  main {
+    width: min(100%, 824px);
+  }
+}
+
+
+@media (max-width: 824px) {
+  body {
+    padding: 0px 25px 0px 25px;
+  }
+}
