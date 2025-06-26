@@ -2,7 +2,6 @@
 import "./../styles/header.scss";
 import Image from 'next/image';
 import { useState } from 'react';
-import Link from 'next/link';
 
 export default function Header() {
 
