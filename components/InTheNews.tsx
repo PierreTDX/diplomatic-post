@@ -22,7 +22,7 @@ export default function InTheNews() {
                         src="/images/articles/article5.png"
                         alt="image de l'article"
                         width={488}
-                        height={274.5}
+                        height={275}
                     />
                 </div>
             </article>

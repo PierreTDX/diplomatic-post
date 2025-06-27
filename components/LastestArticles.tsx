@@ -24,7 +24,7 @@ export default function LastestArticles() {
                             src="/images/articles/article6.jpg"
                             alt="image de l'article"
                             width={488}
-                            height={274.5}
+                            height={275}
                         />
                     </div>
                 </article>
@@ -43,7 +43,7 @@ export default function LastestArticles() {
                             src="/images/articles/article7.jpg"
                             alt="image de l'article"
                             width={488}
-                            height={274.5}
+                            height={275}
                         />
                     </div>
                 </article>
@@ -62,7 +62,7 @@ export default function LastestArticles() {
                             src="/images/articles/article8.jpg"
                             alt="image de l'article"
                             width={488}
-                            height={274.5}
+                            height={275}
                         />
                     </div>
                 </article>
