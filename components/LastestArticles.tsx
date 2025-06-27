@@ -21,7 +21,7 @@ export default function LastestArticles() {
                     </div>
                     <div className="imgInTheNews">
                         <Image className="imgArticle"
-                            src="/images/articles/article2.png"
+                            src="/images/articles/article6.jpg"
                             alt="image de l'article"
                             width={488}
                             height={274.5}
@@ -40,7 +40,7 @@ export default function LastestArticles() {
                     </div>
                     <div className="imgInTheNews">
                         <Image className="imgArticle"
-                            src="/images/articles/article3.png"
+                            src="/images/articles/article7.jpg"
                             alt="image de l'article"
                             width={488}
                             height={274.5}
@@ -59,7 +59,7 @@ export default function LastestArticles() {
                     </div>
                     <div className="imgInTheNews">
                         <Image className="imgArticle"
-                            src="/images/articles/article4.png"
+                            src="/images/articles/article8.jpg"
                             alt="image de l'article"
                             width={488}
                             height={274.5}

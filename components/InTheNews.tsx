@@ -19,7 +19,7 @@ export default function InTheNews() {
                 </div>
                 <div className="imgInTheNews">
                     <Image className="imgArticle"
-                        src="/images/articles/article1.png"
+                        src="/images/articles/article5.png"
                         alt="image de l'article"
                         width={488}
                         height={274.5}

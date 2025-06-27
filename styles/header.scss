@@ -6,6 +6,10 @@ header {
     margin: 0 auto;
     height: 92px;
     position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: var(--background);
 }
 
 .burger {
@@ -18,7 +22,7 @@ header {
     position: absolute;
     top: 92px;
     background-color: var(--background);
-    width: 0px;
+    width: 0;
     opacity: 0;
     height: calc(100dvh - 92px);
     padding: 0px 32px 32px 32px;
@@ -27,6 +31,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 .nav.open {
