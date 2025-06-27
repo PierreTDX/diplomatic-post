@@ -8,11 +8,8 @@
 .inTheNews h2 {
     font-size: 48px;
     display: -webkit-box;
-    display: box; // syntaxe standard (peu supportée aujourd'hui, mais préventive)
     -webkit-box-orient: vertical;
-    box-orient: vertical;
     -webkit-line-clamp: 3;
-    line-clamp: 3;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -22,7 +19,7 @@
 }
 
 .author {
-    columns: var(--author);
+    color: var(--author);
     font-weight: 600;
 }
 
